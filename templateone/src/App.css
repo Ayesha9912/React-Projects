@@ -1,0 +1,982 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* .carousel-indicators li {
+    background-image: url('./images/mainimages/diamond.png'); 
+    background-size: contain; 
+    width: 20px;
+    height: 20px; 
+    background-repeat: no-repeat; 
+    filter: grayscale(80%);
+    border: none; 
+    background-color: transparent;
+}
+.carousel-indicators .active {
+    background-image: url('./images/mainimages/indicator2.png'); 
+    background-size: contain;
+    width: 90px; 
+    height: 90px; 
+    background-repeat: no-repeat;
+    filter: none; 
+    border: none; 
+    background-color: transparent; 
+} */
+.custom-navbar{
+    background-color: #22232B;
+    height: 9vh;
+    border-bottom: 4px solid red;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items:center !important;
+}
+.custom-nav{
+    display: flex !important;
+    height: 100%;
+}
+.logomenu{
+    display: flex;
+    margin-left: 30px;
+}
+.resmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.logo{
+    margin-left: 10px;
+}
+.menunav{
+    height: 120%;
+}
+.custom-dropdown-title .dropdown-toggle {
+    color: white; 
+    font-weight: bold; 
+    background-color: transparent;
+    margin-left: 35px;
+    height: 100% !important; 
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    padding: 10px;
+}
+.custom-dropdown-title .dropdown-toggle:hover{
+    transform: skew(-20deg);
+    background-color: red;
+    color: white !important;
+    transition: all linear 0.3s;
+    font-family: "Oswald", sans-serif;
+    height: 100% !important; 
+}
+.subdrop .dropdown-toggle{
+    color: black;
+    margin-left: -5px;
+    background-color: white !important;
+    text-align: center !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+.subdrop .dropdown-toggle:hover{
+    background-color: none !important;
+    color: black !important;
+    transform: skew(0deg) !important;
+}
+.custom-dropdown-title .dropdown-toggle:checked{
+    transform: skew(-20deg);
+    background-color: red;
+    color: white !important;
+    transition: all linear 0.3s;
+}
+.custom-navbar .dropdown-menu .dropdown-item {
+    color: #14151B; 
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding-top: 15px; 
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+.custom-navbar .dropdown-menu .dropdown-item:hover{
+    color: red;
+}
+.maindrop{
+    padding: 40px;
+    background-color: white;
+}
+.drop2main, .drop3main, .drop4main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-top: -10px;
+}
+.drop4main{
+    padding: 10px !important;
+}
+
+.drop3main{
+    padding: 20px !important;
+}
+.drop2{
+    padding: 50px;
+}
+.drop2main h1 , .price , .drop3main h1, .drop4main h1{
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+.drop3main h1{
+    font-size: 15px;
+}
+.drop3{
+    padding: 10px;
+}
+.price{
+    color: red !important;
+    font-size: 15px !important;
+}
+.drop2main h1:hover , .drop3main h1:hover{
+    color: red;
+}
+.dividerline{
+    width: 1px !important;
+    height: 100% !important;
+    background-color: #22232B !important;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid 1px rgb(198, 195, 195);
+    margin-bottom: 25px;
+}
+.img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.socialicons{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    width: 150px;
+}
+.header{
+    background-color: #14151B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    padding-top: 90px;
+}
+.row1{
+    border-radius: 10px;
+    background-color: #22232bad;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col1 , .col2{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col1 h1 , .col2 h1{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    font-weight: 500;
+}
+.col2{
+    background-color: #22232bad;
+}
+.mainrow{
+    border-radius: 10px;
+    background-color: #22232bad;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px !important;
+}
+.select{
+    border-radius: 10px;
+}
+.btn{
+   color: white !important;
+   font-size: 18px !important;
+   font-weight: 500 !important;
+   background-color: red !important;
+   border-radius: 10px;
+   height: 40px;
+   width: 100%;
+   padding-left: 30px !important;
+   padding-right: 30px !important;
+}
+
+.bodyone{
+    background-color: #14151B;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bodyone h1{
+    font-size: 100px;
+    font-weight: 700;
+    position: relative !important;
+    font-family: "Oswald", sans-serif;
+}
+.overtext{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.overtext h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
+.overtext p{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+}
+.carpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+.carbodyText h3{
+    font: 25px "Oswald", sans-serif;
+    color: rgb(210, 204, 204) !important;
+}
+.carbodyText h1{
+    color: red;
+    font: 30px "Oswald", sans-serif;
+}
+.carbodyText h6{
+    font: 15px "Oswald", sans-serif;
+    color: rgb(139, 136, 136) !important;
+    letter-spacing: 3px;
+}
+.carbodyText p{
+    font-size: 15px;
+    color: grey;
+    margin-top: 25px;
+}
+.carbodyText h5{
+    font-size: 15px;
+    color: grey;
+    margin-top: 35px;
+}
+.carbodyText h2{
+    font: 15px "Oswald", sans-serif;
+    color: white;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.cardmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+.cardcol{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.cardtext{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardtext p{
+    font: 15px "Oswald", sans-serif;
+    color: white;
+}
+.cardtext h1{
+    font: 22px "Oswald", sans-serif;
+    color: yellow;
+    font-weight: 500;
+}
+.cardtext h3{
+    font: 15px "Oswald", sans-serif;
+    color: white;
+}
+.featuredpro , .blogpro{
+    background-color: #14151B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.banner {
+    text-align: center;
+    border: solid 1px #22232B;
+    background-color: transparent;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 15px !important;
+}
+.banner h1{
+    font: 28px "Oswald", sans-serif;
+    color: white;
+    font-weight: 600 !important;
+} 
+.featuredpro p , .mainpro p ,.blogpro p{
+    font: 15px "Oswald", sans-serif;
+    color: grey;
+    margin-top: 30px;
+    text-align: center;
+}
+.mainslider {
+    padding: 20px;
+    background-color: #14151B; 
+}
+.slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.slick-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    padding: 40px;
+}
+.featuremain{
+    width: 100%;
+    border: solid 1px rgb(71, 69, 69);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slidemainimg{
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+.slidemainimg img{
+    width: 100% !important;
+    object-fit: cover;
+    border-radius: 20px;
+    opacity: 1;
+    transition: all linear 0.3s;
+}
+.absolute{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all linear 0.3s;
+}
+.absolutediv{
+    width: 100%;
+    position: relative;
+}
+.absolute img{
+    opacity: 0;
+}
+.imgicons{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.faicons{
+    color: black;
+    font-size: 23px;
+    margin-top: 10px;
+    opacity: 0;
+    transition: linear all 0.3s;
+}
+.faicons:hover{
+    color: red;
+}
+.slidemainimg:hover .faicons{
+    opacity: 1;
+}
+.slidemainimg:hover .absolute img{
+    opacity: 1;
+}
+.slidemainimg:hover .slidemainimg img{
+    opacity: 0;
+}
+.featureh1{
+    width: 90%;
+    border-top: solid 1px rgb(71, 69, 69);
+    border-bottom: solid 1px rgb(71, 69, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top:50px;
+}
+.featureh1 h1{
+    font-size: 18px;
+    color: rgb(71, 69, 69);
+    font-weight: 500;
+    font: 15px "Oswald", sans-serif;
+}
+.featureh1 h1:hover {
+    color: red;
+}
+.featuremain p{
+    font-size: 15px;
+    color: rgb(71, 69, 69);
+    width: 90%;
+    margin-top: 20px;
+}
+.featureline{
+    width: 90%;
+    height: 1px;
+    background-color: rgb(71, 69, 69);
+}
+.featuremain h3{
+    font: 18px "Oswald", sans-serif;
+    font-weight: 500;
+    color: red;
+    margin-top: 10px;
+}
+.price{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.featuremain button{
+    width: 90%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(71, 69, 69);
+    border: none;
+    font: 15px "Oswald", sans-serif;
+    font-weight: 500;
+    color: grey;
+}
+.btnicon{
+    font-size: 20px;
+    color: grey;
+    margin-top: -5px;
+}
+.featuremain button:hover{
+    background-color: red;
+    color: white;
+}
+.featuremain button:hover .btnicon{
+    color: white;
+}
+.testbox{
+    width: 100%;
+    height: 55vh;
+    background-image: url(./images/mainimages/bkg_testtimor.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.mainpro{
+    padding-top: 30px;
+    background-color: #14151B;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.carview{
+    overflow: hidden;
+    background-color: #14151B;
+}
+.carbg img{
+    width: 100%;
+    background-color: #190E1B;
+}
+.carbg{
+    position: relative;
+}
+.cardtextview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cardtextview p{
+    font-weight: 500;
+    font: 15px "Oswald", sans-serif;
+    color: white;
+}
+.cardtextview h1{
+    font: 35px "Oswald", sans-serif;
+    font-weight: 500;
+    color: yellow;
+}
+.cardtextview h3{
+    font: 15px  sans-serif;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.cartbtn{
+    width: 200px !important;
+    background-color: white;
+    border-radius: 30px;
+    height: 40px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.cartbtn h1{
+    font: 15px "Oswald", sans-serif;
+    color: black;
+    margin-left: 30px;
+}
+.cartcircle{
+    width: 35px;
+    height: 35px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.cartbtn:hover .cartcircle{
+    background-color: white;
+}
+.cartbtn:hover .hover{
+    color: white !important;
+}
+.cartbtn:hover{
+    background-color: red;
+    box-shadow: 0px 0px 8px 0px red;
+}
+.ticketdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.ticketcol{
+    padding: 20px;
+    margin-top: 30px;
+}
+.ticket{
+    border: solid 1px rgb(81, 79, 79);
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+.ticimg{
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    transform: translate(0%, -50%);
+}
+.ticimg img{
+    width: 50px;
+    height: 50px;
+    filter: invert(13%) sepia(69%) saturate(5965%) hue-rotate(336deg) brightness(99%) contrast(96%);
+}
+.ticket h1{
+    font: 15px "Oswald", sans-serif;
+    color: grey;
+}
+.ticket p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.blogslid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogrow{
+    width: 100%;
+}
+.blogcol img{
+    width: 100%;
+}
+.blogcoltext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.blogcoltext h1{
+    color: red;
+    font-weight: 600;
+    font: 35px "Oswald", sans-serif;
+}
+.blogcoltext h1 span{
+    font-size: 18px;
+    font-weight: 600;
+}
+.blogcoltext p{
+    font: 15px "Oswald", sans-serif;
+    color: grey;
+    font-weight: 500;
+}
+.blogcoltext h3{
+    color: grey;
+    font-size: 13px;
+}
+.blogcoltext h3 span{
+    color: red;
+}
+.blogline{
+    width: 90%;
+    height: 1px;
+    background-color: grey;
+    margin-top: 20px;
+}
+.instamainslider{
+    padding-top: 50px;
+}
+.blogcoltext h6{
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.blogcoltext button{
+    border-radius: 20px;
+    padding: 15px;
+    font: 15px "Oswald", sans-serif;
+    background-color: #22232B;
+    color: grey;
+    border: none;
+    width: 180px;
+    margin-top: 20px;
+}
+.blogcoltext button:hover{
+    background-color: red;
+    color: white;
+}
+.logoslider{
+    background-color: #14151B;
+}
+.logomainimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagramslide{
+    background-color: #14151B;
+    padding-bottom: 100px;
+}
+.slick-slide{
+    padding: 20px !important;
+}
+.instaimg{
+    width: 100% !important;
+}
+.instaimg img{
+    width: 120%;
+}
+.mainfooter{
+    background-color: #14151B;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.emailline{
+    width: 50%;
+    background-color: grey;
+    height: 1px;
+}
+.subscribe{
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.subscribe p{
+    font-size: 15px;
+    color: red;
+    font-weight: 400;
+    text-align: center;
+}
+.subscribe h1{
+    font: 30px "Oswald", sans-serif;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+.subscribe h5{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-weight: 400;
+    text-align: center;
+}
+.input{
+    width: 80%;
+    height: 50px;
+    background-color: #21252C;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px 0px #21252C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.input input{
+    padding-left: 20px;
+    background-color: #21252C;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: grey;
+    width: 80%;
+}
+.inputcir{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(224, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    border-top: solid 2px red;
+    margin-top: 50px;
+    min-height: 60vh;
+    background-image: url(./images/mainimages/bkg_footer_c0f71867-38e3-492b-995f-7d0269b97db1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.footerRow{
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainFooterrow{
+    height: 100% !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.footerlogodiv p{
+    color: grey;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.footericons{
+    margin-top: 30px;
+}
+.collis{
+    display: flex;
+    justify-content: space-between;
+}
+.collisdiv{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.shortmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-top: 30px;
+}
+.shortmenu h1{
+font: 18px "Oswald", sans-serif;
+color: white;
+}
+.footericons h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-weight: 500; */
+    font-size: 15px;
+    margin-top: 10px;
+}
+.footerli1{
+    border-left: solid 1px grey;
+    height: auto;
+    padding-left: 10px;
+    width: max-content;
+}
+.footerli1 h1{  
+    font: 15px "Oswald", sans-serif;
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.footerli1 ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+    margin-left: -20px;
+    margin-top: 10px;
+    transition: all linear 0.3s;
+}
+.footerli1 ul li:hover{
+    color: red;
+    margin-left: -10px;
+}
+.footerline{
+    width: 70%;
+    height: 1px;
+    background-color: gray;
+}
+.footercards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.footerlastp p{
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+}
+.footerlastp p span{
+    color: red;
+}
+.footerlast{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.footermainicons{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.pay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:1400px){
+    .slider-container{
+        width: 100% !important;
+    }
+    .blogcoltext{
+        padding: 0px !important;
+    }
+}
+@media (max-width:780px){
+    .colmain{
+        margin-top: 20px !important;
+    }
+    .testbox{
+        padding: 0px !important;
+    }
+    .testdiv h1{
+        margin-top: 0px !important;
+    }
+    .invertedtest p{
+        width: 100% !important;
+    }
+    .cardtextview h1{
+        font-size: 25px;
+    }
+    .shortmenu{
+        width: 80% !important;
+    }
+    .footerlastp p{
+        margin-top: 30px;
+    }
+    .subscribe{
+        width: 100%;
+    }
+    .hover{
+        font-size: 12px !important;
+    }
+    .cardtextview h3{
+        font-size: 12px !important;
+    }
+}
+@media (max-width:400px){
+    .history{
+        font-size: 70px !important;
+    }
+    .banner h1{
+        font-size: 20px !important;
+    }
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.loading{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid green;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 10%;
+    transform: translate(-50%);
+    animation-name: lodi;
+    animation-timing-function: linear;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+}
+.lod{
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+@keyframes lodi{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

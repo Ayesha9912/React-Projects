@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.animation{
+    animation: animate 1s infinite;
+    transition: 3s;
+}
+@keyframes animate{
+    from{
+        opacity: 1;
+        width: 80px;
+        height: 30px;
+    }
+    to{
+        opacity: 0.3;
+        width: 350px;
+        height: 90px;
+    }
+}
+.bgimg{
+    background-image: url(./assets/quote.c952ddc0c1361baa3c77.png);
+}
+@media (max-width:600px){
+    .animation{
+        animation: none;
+    }
+    
+}
+
+  
+
+

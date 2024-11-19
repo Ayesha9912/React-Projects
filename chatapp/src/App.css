@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.chatbox{
+  border: solid 2px grey;
+  border-radius: 5px;
+  margin: 5px 0px;
+  padding: 10px;
+  background-color: bisque;
+}
+.container{
+  display: flex;
+}
+.container.me{
+  flex-direction: row-reverse;
+}
+.me .chatbox{
+  background-color: blueviolet;
+}
+.btm{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100% !important;
+  display: flex;
+}
+.btm input{
+  padding: 10px;
+  font-size: 18px;
+  flex-grow: 1;
+}
+.btm button{
+  padding: 20px;
+}
+

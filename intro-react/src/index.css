@@ -1,0 +1,60 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; /* Choose a preferred font family */
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2em; /* Adjust heading size as desired */
+  }
+  
+  /* Form styles */
+  .form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1; /* Allow input to fill remaining space */
+  }
+  
+  .form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Indicate clickable button */
+  }
+  
+  /* Todo list styles */
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  

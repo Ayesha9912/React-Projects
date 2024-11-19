@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgimg1 , .bgimg2 , .bgimg3{
+    background-image: url(./images/background-features.5f7a9ac9.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 110vh;
+}
+
+.boxdiv{
+    background-color: #3B73EC;
+}
+.bgimg2{
+    background-image: url(./images/background-features.5f7a9ac9.jpg);
+    min-height: 40vh;
+}
+.bgimg3{
+    background-image: url(./images/background-faqs.55d2e36a.jpg);
+    min-height: 40vh;
+}
+@media (max-width:700px){
+    .pixel{
+        height: 500px;
+
+    }
+    
+}
